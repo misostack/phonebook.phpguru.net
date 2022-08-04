@@ -42,6 +42,18 @@ which composer
 composer dumpautoload
 ```
 
+### Dev enviroment
+
+- [Deploy PHP Application in Heroku](https://devcenter.heroku.com/articles/deploying-php)
+
+```bash
+git push heroku main:master
+- ```
+
+> Test Account
+- URL : https://phonebook-phpguru.herokuapp.com/
+- Account: demo|123456
+
 ### Resources
 
 1. [Packagist](https://packagist.org/)
