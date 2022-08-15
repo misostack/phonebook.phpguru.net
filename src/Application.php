@@ -32,6 +32,19 @@ class Comparator
 
 class Application
 {
+	public function __construct()
+	{
+		// create upload directory if not existed
+		$this->createUploadDirectory();
+	}
+
+	private function createUploadDirectory()
+	{
+		if (!file_exists(UPLOAD_DIRECTORY)) {
+			mkdir(UPLOAD_DIRECTORY, 644, true);
+		}
+	}
+
 	public function saveUploadFile($file)
 	{
 		$target = UPLOAD_DIRECTORY;
