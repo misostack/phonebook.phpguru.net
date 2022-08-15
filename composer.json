@@ -1,17 +1,19 @@
 {
-    "name": "phpguru.net/phonebook",
-    "description": "phone book application",
-    "type": "project",
-    "autoload": {
-        "psr-4": {
-            "PhpGuru\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "misostack",
-            "email": "misostack.com@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "phpguru.net/phonebook",
+  "description": "phone book application",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "PhpGuru\\": "src/",
+      "PhpGuru\\CheatSheet\\": "src/cheatsheet",
+      "PhpGuru\\Blog\\": "src/blog"
+    }
+  },
+  "authors": [
+    {
+      "name": "misostack",
+      "email": "misostack.com@gmail.com"
+    }
+  ],
+  "require": {}
 }
