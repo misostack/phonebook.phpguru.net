@@ -3,6 +3,7 @@
 ## Requirements
 
 ### Functional
+
 - User must registered to use application
 - User can only access their phone book
 - User can register with their email + password
@@ -10,9 +11,10 @@
 - User can login with their email/username + password or SNS
 - User can reset their password via email
 - User can organize their phone book by category
-- User can search their phone book by: name or phone number - support full text  search and auto complete
+- User can search their phone book by: name or phone number - support full text search and auto complete
 
 ### Non-Functional
+
 - User password must be hashed
 - Email must be encrypted
 - Prevent CRS Attack
@@ -22,7 +24,8 @@
 - Must use OOP
 - Use composer to manage your external libraries
 
-###  Infrastructure
+### Infrastructure
+
 - Application must be able to deploy via Docker
 - Database must be MYSQL 8.x
 
@@ -51,6 +54,7 @@ git push heroku main:master
 - ```
 
 > Test Account
+
 - URL : https://phonebook-phpguru.herokuapp.com/
 - Account: demo|123456
 
@@ -59,3 +63,8 @@ git push heroku main:master
 1. [Packagist](https://packagist.org/)
 2. [PHP Standards Recommendations](https://www.php-fig.org/psr/)
 
+### Run test manually
+
+```bash
+XDEBUG_MODE=coverage vendor/phpunit/phpunit/phpunit --bootstrap ./vendor/autoload.php --configuration ./tests/phpunit.xml
+```

@@ -474,3 +474,12 @@ composer.lock
 *.scss.map
 
 .idea
+/tests/.phpunit.result.cache
+/tests/cached
+/tests/clover.xml
+/tests/cobertura.xml
+/tests/coverage.php
+/tests/coverage.txt
+/tests/crap4j.xml
+/tests/html-coverage
+/tests/xml-coverage
