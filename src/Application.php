@@ -51,7 +51,7 @@ class Application
 		$targetFile = $target.DIRECTORY_SEPARATOR.basename($file['name']);
 		$fileUrl = SITE_URI.'/uploads/'.basename($file['name']);
 		$tmpFile = $file['tmp_name'];
-		if (copy($tmpFile, $targetFile)) {
+		if (move_uploaded_file($tmpFile, $targetFile)) {
 			$isImage = getimagesize($targetFile);
 			if ($isImage) {
 				return new Image($file['name'], $fileUrl, $targetFile, $isImage['mime']);
