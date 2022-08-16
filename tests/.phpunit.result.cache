@@ -1,1 +1,0 @@
-{"version":1,"defects":{"PhpGuru\\StringManipulationTest::testEmpty":4,"StringManipulationTest::testEmpty":4},"times":{"PhpGuru\\StringManipulationTest::testEmpty":0.007,"StringManipulationTest::testEmpty":0.008}}
