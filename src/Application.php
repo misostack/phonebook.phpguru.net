@@ -1,8 +1,11 @@
 <?php
+
 namespace PhpGuru;
 
-class Application {
-    public function start(){
-        echo "Application start";
-    }
+class Application
+{
+	public function start()
+	{
+		echo "Application start";
+	}
 }
